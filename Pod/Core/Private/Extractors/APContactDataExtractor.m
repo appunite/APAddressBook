@@ -26,6 +26,7 @@
 - (APName *)name
 {
     APName *name = [[APName alloc] init];
+    name.title = [self stringProperty:kABPersonPrefixProperty];
     name.firstName = [self stringProperty:kABPersonFirstNameProperty];
     name.lastName = [self stringProperty:kABPersonLastNameProperty];
     name.middleName = [self stringProperty:kABPersonMiddleNameProperty];

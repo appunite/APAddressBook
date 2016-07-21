@@ -10,6 +10,7 @@
 
 @interface APName : NSObject
 
+@property (nullable, nonatomic, strong) NSString *title;
 @property (nullable, nonatomic, strong) NSString *firstName;
 @property (nullable, nonatomic, strong) NSString *lastName;
 @property (nullable, nonatomic, strong) NSString *middleName;
