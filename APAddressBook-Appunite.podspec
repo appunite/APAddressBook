@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name         = "APAddressBook-Appunite"
-  s.version      = "0.2.5"
+  s.version      = "0.2.6"
   s.summary      = "Easy access to iOS address book"
   s.homepage     = "https://github.com/Alterplay/APAddressBook"
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.author       = { "Alexey Belkevich" => "belkevich.alexey@gmail.com" }
-  s.source       = { :git => "https://github.com/Alterplay/APAddressBook.git",
+  s.source       = { :git => "https://github.com/appunite/APAddressBook.git",
 		                 :tag => s.version.to_s }
   s.requires_arc = true
   s.frameworks   = 'AddressBook'
