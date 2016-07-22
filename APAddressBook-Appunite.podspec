@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "APAddressBook"
+  s.name         = "APAddressBook-Appunite"
   s.version      = "0.2.4"
   s.summary      = "Easy access to iOS address book"
   s.homepage     = "https://github.com/Alterplay/APAddressBook"
